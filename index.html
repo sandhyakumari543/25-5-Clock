@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="main-title">25+5 Clock</div>
+        <div class="lengthControl">
+
+            <div id="break-label">Break Length</div>
+            <button class="btn-level" id="break-decrement" value="-">-</button>
+            <div class="btn-level" id="break-length">5</div>
+            <button class="btn-level" id="break-increment" value="+">+</button>
+
+        </div>
+        <div class="lengthControl">
+            <div id="session-label">Session Length</div>
+            <button class="btn-level" id="session-decrement" value="-">-</button>
+            <div class="btn-level" id="session-length">25</div>
+            <button class="btn-level" id="session-increment" value="+">+</button>
+        </div>
+
+        <div class="timer">
+            <div class="time-wrapper">
+                <div id="timer-label">Session</div>
+                <div id="time-left">25:00</div>
+            </div>
+            <audio src="beep-1-sec-6162.mp3" preload="auto" id="beep"></audio>
+        </div>
+        <div class="time-control">
+            <button id="start_stop">
+                <i class=" fa play" id="startButton"></i>
+                <i class=" fa pause" id="pauseButton"></i>
+            </button>
+            <button id="reset">
+                <i class=" fa refresh"></i>
+            </button>
+        </div>
+        <div>
+            <p id="author">Sandhya Kushwaha</p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

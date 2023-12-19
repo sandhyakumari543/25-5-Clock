@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #1e555c;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+body .container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+body .container .main-title {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.lengthControl {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+    margin-left:150px;
+}
+
+.lengthControl button {
+    background: none;
+    outline: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 33px;
+}
+
+.lengthControl .btn-level {
+    width: 30px;
+    margin-bottom: 10px;
+}
+
+.lengthControl #break-label,
+.lengthControl #session-label {
+    margin-bottom: 10px;
+}
+
+.lengthControl #break-length,
+.lengthControl #session-length {
+    display: flex;
+    align-items: center;
+}
+
+.timer {
+    border: 7px solid #13353a;
+    margin: 20px auto 10px auto;
+    width: 270px;
+    height: 160px;
+    border-radius: 50px;
+    position: relative;
+}
+
+.time-wrapper {
+    position: absolute;
+    width: 190px;
+    height: 110px;
+    left: 50%;
+    top: 50%;
+    margin-left: -95px;
+    margin-top: -57px;
+}
+
+#time-left {
+    font-family: 'digital';
+    font-size: 60px;
+}
+
+.time-control {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 200px;
+}
+
+.time-control button {
+    background: none;
+    outline: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-left: 20px;
+    display: flex;
+}
+
+.time-control .fa {
+    font-size: 30px;
+    margin-right: 44px;
+    font-weight: bold;
+}
+
+.fa.play::before {
+    content: '>';
+}
+
+.fa.pause::before {
+    content: '||';
+}
+
+.fa.refresh::before {
+    content: '~';
+   
+}
+#author{
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 12px;
+    color:#00264d;;
+}
