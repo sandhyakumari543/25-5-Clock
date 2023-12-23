@@ -7,6 +7,7 @@ A simple countdown timer implementing the Pomodoro Technique, allowing users to 
 - [Technologies Used](#technologies-used)
 - [How to Use](#how-to-use)
 - [Demo](#demo)
+  
 
 
 ## Features
@@ -20,3 +21,6 @@ A simple countdown timer implementing the Pomodoro Technique, allowing users to 
 - HTML5
 - CSS3
 - JavaScript
+  
+ #Demo
+https://sandhyakumari543.github.io/25-5-Clock/
